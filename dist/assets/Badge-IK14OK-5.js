@@ -1,0 +1,1 @@
+import{k as l,q as s}from"./index-BvUJIg29.js";const n={emerald:"bg-emerald/10 text-emerald",gold:"bg-gold/15 text-gold",neutral:"bg-stone/60 text-charcoal"},r=({children:e,variant:t="neutral",className:a})=>l.jsx("span",{className:s("inline-flex items-center rounded-full px-3 py-1 text-xs font-semibold tracking-wide",n[t],a),children:e});export{r as B};

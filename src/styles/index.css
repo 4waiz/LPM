@@ -1,0 +1,52 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  @apply bg-sand text-charcoal transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-navy-900 text-stone;
+}
+
+::selection {
+  background: rgba(15, 118, 110, 0.2);
+}
+
+.dark ::selection {
+  background: rgba(184, 140, 74, 0.3);
+}
+
+.container-pad {
+  @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-pad {
+  @apply py-16 sm:py-20 lg:py-24;
+}
+
+.glass-panel {
+  @apply bg-white/80 backdrop-blur-sm border border-white/40 shadow-soft;
+}
+
+.dark .glass-panel {
+  @apply bg-navy-800/80 border-navy-700/40;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
