@@ -3,7 +3,6 @@ import Modal from "./Modal";
 import Input from "./Input";
 import Select from "./Select";
 import { Button } from "./Button";
-import Badge from "./Badge";
 import { useToast } from "../hooks/useToast";
 
 type PayRentModalProps = {
